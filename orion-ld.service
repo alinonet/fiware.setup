@@ -1,0 +1,9 @@
+
+[Unit]
+Description=FIWARE Context Broker Orion LD
+
+[Service]
+ExecStart=/home/ubuntu/fiware.setup/run.sh
+
+[Install]
+WantedBy=multi-user.target
